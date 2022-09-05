@@ -10,3 +10,4 @@ Contém os seguintes cursos:
 - Cursos C#
 - Gulp: automação de tarefas front-end
 - Curso TDD com Java Alura - Instrutor Maurício Aniche
+- Curso JQuery
