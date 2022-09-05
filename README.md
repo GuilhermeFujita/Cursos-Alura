@@ -11,3 +11,4 @@ Contém os seguintes cursos:
 - Gulp: automação de tarefas front-end
 - Curso TDD com Java Alura - Instrutor Maurício Aniche
 - Curso JQuery
+- Curso Ionic 2 parte 1: aplicações híbridas mobile ainda mais poderosas
