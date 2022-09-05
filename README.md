@@ -8,3 +8,4 @@ Contém os seguintes cursos:
 - Curso PHP e MySQL II: Cookies, sessões e mais recursos
 - Curso PHP I: Orientação a objetos com sua linguagem preferida
 - Cursos C#
+- Gulp: automação de tarefas front-end
