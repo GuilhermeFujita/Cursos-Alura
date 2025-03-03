@@ -1,0 +1,65 @@
+.botao__radio--legenda {
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+  padding-bottom: 0.25rem;
+  display: block;
+}
+
+[type="radio"] {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+}
+
+[type="radio"] + span {
+  padding: 0.25rem;
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+[type="radio"] + span:before {
+  content: "";
+  display: inline-block;
+  margin-left: 0.25rem;
+  width: 0.75em;
+  height: 0.75em;
+  vertical-align: -0.25em;
+  border-radius: 1em;
+  border: 0.125em solid #fff;
+  box-shadow: 0 0 0 0.15em #000;
+  margin-right: 0.75em;
+  transition: 0.5s ease all;
+}
+
+[type="radio"]:checked + span:before {
+  background: darkblue;
+}
+
+[type="radio"]:focus + span {
+  box-shadow: 0 0 0 0.15em #000;
+  border-radius: 6px;
+}
+
+.radio__grupo--campos {
+  display: flex;
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+  border: 0;
+}
+
+.radio__grupo--legenda {
+  color: var(--grafite);
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+}

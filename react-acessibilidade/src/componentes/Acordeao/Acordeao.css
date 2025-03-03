@@ -1,0 +1,25 @@
+.acordeao__container {
+  width: 955px;
+  display: flex;
+  flex-direction: column;
+}
+
+.acordeao__conteudo {
+  margin-bottom: 1rem;
+}
+
+.acordeao__titulo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-self: stretch;
+  cursor: pointer;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  background-color: var(--azul-primario);
+}
+
+.acordeao__descricao {
+  padding: 1rem;
+  background-color: var(--azul-claro);
+}

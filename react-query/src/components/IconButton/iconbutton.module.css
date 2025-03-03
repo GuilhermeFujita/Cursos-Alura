@@ -1,0 +1,10 @@
+.btn {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.btn:disabled {
+  opacity: 0.2;
+  cursor: not-allowed;
+}

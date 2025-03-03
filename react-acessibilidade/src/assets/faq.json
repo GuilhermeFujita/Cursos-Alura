@@ -1,0 +1,22 @@
+[
+  {
+    "id": "faq-devolucoes",
+    "titulo": "Como posso fazer devoluções de produtos na Zoop?",
+    "descricao": "As devoluções são simples! Basta trazer o item não utilizado com a nota fiscal para nossa loja dentro de 30 dias para troca ou reembolso."
+  },
+  {
+    "id": "faq-fidelidade",
+    "titulo": "A Zoop oferece programa de fidelidade para clientes?",
+    "descricao": "As devoluções são simples! Basta trazer o item não utilizado com a nota fiscal para nossa loja dentro de 30 dias para troca ou reembolso."
+  },
+  {
+    "id": "faq-loja-fisica",
+    "titulo": "Posso comprar online e retirar na loja física da Zoop?",
+    "descricao": "As devoluções são simples! Basta trazer o item não utilizado com a nota fiscal para nossa loja dentro de 30 dias para troca ou reembolso."
+  },
+  {
+    "id": "faq-produtos",
+    "titulo": "A Zoop oferece garantia para seus produtos?",
+    "descricao": "As devoluções são simples! Basta trazer o item não utilizado com a nota fiscal para nossa loja dentro de 30 dias para troca ou reembolso."
+  }
+]

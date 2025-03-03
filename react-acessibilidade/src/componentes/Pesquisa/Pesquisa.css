@@ -1,0 +1,12 @@
+.campo__pesquisa {
+  display: flex;
+  width: 37.5rem;
+  align-items: center;
+  border-radius: 0.5rem;
+}
+
+.campo__pesquisa:focus {
+  outline: none;
+  border: 2px solid;
+  border-color: var(--azul-primario);
+}

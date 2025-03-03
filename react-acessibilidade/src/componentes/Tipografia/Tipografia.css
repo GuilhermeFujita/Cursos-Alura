@@ -1,0 +1,32 @@
+.tipografia__titulo--1,
+.tipografia__titulo--2,
+.tipografia__titulo--3 {
+  font-weight: 700;
+  font-style: normal;
+  line-height: 120%;
+}
+
+.tipografia__titulo--1 {
+  font-size: 3.3125rem;
+}
+
+.tipografia__titulo--2 {
+  font-size: 2.3125rem;
+}
+
+.tipografia__titulo--3 {
+  font-size: 1.9375rem;
+}
+
+.tipografia__paragrafo {
+  font-size: 1.375rem;
+  font-weight: 400;
+  line-height: 150%;
+}
+
+.tipografia__destaque {
+  font-size: 3.3125rem;
+  font-style: italic;
+  font-weight: 700;
+  line-height: 120%;
+}

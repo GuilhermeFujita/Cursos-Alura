@@ -1,0 +1,38 @@
+.campo__texto {
+  display: flex;
+  width: 100%;
+  padding: 1rem;
+  align-items: center;
+  align-self: stretch;
+  background: transparent;
+  border: 1px solid var(--azul-primario);
+  border-radius: 0.5rem;
+  color: var(--grafite);
+  font-size: 1.375rem;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.campo__texto:focus {
+  outline: none;
+  border: 2px solid;
+  border-color: var(--azul-primario);
+}
+
+.campo__texto--legenda {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: flex-start;
+  color: var(--azul-primario);
+  font-size: 1.165rem;
+  font-weight: 700;
+  gap: 0.5rem;
+}
+
+.mensagem-erro {
+  color: var(--magenta-primario);
+  font-style: italic;
+  font-weight: 600;
+  margin-top: 0.5rem;
+}

@@ -1,0 +1,33 @@
+.padrao {
+  color: var(--cinza-primario);
+  font-size: 1.375rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+}
+
+.primario {
+  color: var(--azul-primario);
+  text-decoration: underline;
+  font-weight: 700;
+  font-size: 1.375rem;
+  font-style: normal;
+  line-height: 150%;
+}
+
+.primario:hover {
+  color: var(--azul-hover);
+}
+
+.secundario {
+  color: var(--magenta-primario);
+  text-decoration: underline;
+  font-weight: 700;
+  font-size: 1.375rem;
+  font-style: normal;
+  line-height: 150%;
+}
+
+.secundario:hover {
+  color: var(--magenta-hover);
+}

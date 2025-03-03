@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "titulo": "Eletrônicos",
+    "src": "eletronicos.png",
+    "altImg": "Celular na cor azul claro de frente e verso"
+  },
+  {
+    "id": 2,
+    "titulo": "Informática",
+    "src": "informatica.png",
+    "altImg": "Notebook prata aberto"
+  },
+  {
+    "id": 3,
+    "titulo": "Jogos",
+    "src": "jogos.png",
+    "altImg": "Mãos segurando um controle de videogame"
+  },
+  {
+    "id": 4,
+    "titulo": "Livros",
+    "src": "livros.png",
+    "altImg": "Livro em perspectiva com capa na cor laranja"
+  },
+  {
+    "id": 5,
+    "titulo": "Eletroportáteis",
+    "src": "eletroportateis.png",
+    "altImg": "Liquidificador na cor prata"
+  },
+  {
+    "id": 6,
+    "titulo": "Decoração",
+    "src": "decoracao.png",
+    "altImg": "Cadeira com almofada ambas na cor branca"
+  }
+]

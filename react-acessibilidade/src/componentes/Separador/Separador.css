@@ -1,0 +1,5 @@
+.separador {
+  height: 1.5px;
+  width: 100%;
+  background-color: var(--cinza-primario);
+}

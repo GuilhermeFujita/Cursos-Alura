@@ -1,0 +1,41 @@
+.botao {
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  display: inline-flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 0.5rem;
+  font-family: var(--fonte-principal);
+  color: var(--cinza-primario);
+  font-size: 1.375rem;
+}
+
+.botao__padrao {
+  font-weight: 400;
+  color: var(--azul-primario);
+}
+
+.botao__primario {
+  padding: 1rem;
+  border-radius: 0.5rem;
+  background-color: var(--magenta-primario);
+  font-weight: 700;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.botao__primario:hover {
+  background-color: var(--magenta-hover);
+}
+
+.botao__secundario {
+  border-radius: 0.5rem;
+  padding: 1rem;
+  background-color: var(--azul-primario);
+  font-weight: 700;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.botao__secundario:hover {
+  background-color: var(--azul-hover);
+}

@@ -1,0 +1,41 @@
+input[type="checkbox"] {
+  -webkit-appearance: none;
+  appearance: none;
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  outline: none;
+  cursor: pointer;
+}
+
+.checkbox__legenda {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  line-height: 2.5;
+  font-size: 1.125rem;
+}
+
+input[type="checkbox"] + span {
+  display: block;
+  color: var(--Grafite, #312e2e);
+}
+
+input[type="checkbox"] + span:before {
+  content: "";
+  display: inline-block;
+  width: 1.5rem;
+  height: 1.5rem;
+  vertical-align: -0.5em;
+  border-radius: 0.25rem;
+  border: 0.25rem solid #fff;
+  box-shadow: 0 0 0 0.15em var(--azul-primario);
+  margin-right: 1rem;
+  transition: 0.5s ease all;
+}
+
+input[type="checkbox"]:checked + span:before {
+  background: var(--magenta-primario);
+}

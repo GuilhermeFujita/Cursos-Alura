@@ -1,0 +1,20 @@
+.secao__inscricao {
+  width: 100%;
+}
+
+.secao__inscricao--conteudo {
+  background-color: var(--verde-claro);
+  padding: 80px 240px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+
+.secao__inscricao--formulario {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 1rem;
+}

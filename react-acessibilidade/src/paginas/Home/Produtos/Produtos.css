@@ -1,0 +1,52 @@
+.produtos__maisProcurados {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 40px;
+}
+
+.produtos__maisProcurados--conteudo {
+  padding: 80px 240px 160px 240px;
+}
+
+.produtos__maisProcurados--lista {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: stretch;
+  row-gap: 1.5rem;
+  padding-top: 40px;
+}
+
+.produtos__maisProcurados--link {
+  text-align: right;
+  padding-top: 40px;
+}
+
+.produtos__maisProcurados--cartao {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 341px;
+  height: 100%;
+  box-shadow: 0px 4px 24px 0px rgba(123, 123, 123, 0.15);
+}
+
+.produtos__maisProcurados--cartao:hover,
+.produtos__maisProcurados--cartao:focus {
+  box-shadow: 0px 4px 24px 0px rgba(226, 49, 85, 0.18);
+}
+
+.produtos__maisProcurados--informacoes {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  gap: 16px;
+  padding: 1rem 1.5rem;
+}
+
+.produtos__maisProcurados--imagem {
+  width: 341px;
+  height: 180px;
+  object-fit: cover;
+}

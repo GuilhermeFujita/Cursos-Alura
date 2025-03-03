@@ -1,0 +1,14 @@
+.cabecalho {
+  display: flex;
+  height: 107px;
+  padding: 0px 240px;
+  justify-content: space-between;
+  align-items: center;
+  align-self: stretch;
+}
+
+.cabecalho__icones {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}

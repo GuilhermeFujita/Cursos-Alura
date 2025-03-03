@@ -1,0 +1,56 @@
+.rodape__conteudo {
+  width: 100%;
+  background-color: var(--azul-primario);
+}
+
+.rodape__informacoes {
+  display: flex;
+  padding: 60px 240px;
+  align-items: start;
+  justify-content: space-between;
+}
+
+.rodape__logo {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1.5rem;
+  color: var(--cinza-primario);
+  font-weight: 700;
+  width: 25%;
+}
+
+.rodape__institucional {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.rodape__institucional--links,
+.rodape__atendimento,
+.rodape__redes-sociais {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.5rem;
+}
+
+.rodape__redes-sociais--icones {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.rodape__copy {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 0.5rem;
+  padding: 24px 240px;
+  color: var(--cinza-primario);
+  background-color: var(--grafite);
+  text-align: center;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+}

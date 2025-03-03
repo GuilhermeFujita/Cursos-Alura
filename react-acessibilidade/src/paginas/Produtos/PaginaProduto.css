@@ -1,0 +1,41 @@
+.pagina__produto {
+  display: flex;
+  padding: 180px 240px;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+}
+
+.pagina__produto--conteudo {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.pagina__produto--informacoes {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1.25rem;
+  align-self: stretch;
+}
+
+.pagina__produto--cabecalho {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 24px;
+}
+
+.pagina__produto--icones {
+  display: flex;
+  align-items: flex-start;
+  gap: 24px;
+}
+
+.pagina__produto--opcoes {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+  align-self: stretch;
+}
